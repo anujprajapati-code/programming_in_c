@@ -6,7 +6,7 @@ int main()
     int n,sum=0;
     printf("\tEnter the value of n: ");
     scanf("%d",&n);
-    sum=n*((n+1)/2);
+    sum=(n*(n+1))/2;
     printf("\n\t\tSum upto %d is %d",n,sum);
     printf("\n\n\n\n\t\t\t\t-----\t\t");
     return 0;
